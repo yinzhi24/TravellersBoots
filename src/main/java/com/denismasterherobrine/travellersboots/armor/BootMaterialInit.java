@@ -15,7 +15,8 @@ public enum BootMaterialInit implements IArmorMaterial {
     travellersbootsmki("travellersbootsmki", 50, new int[] {1, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.LEATHER),
     travellersbootsmkii("travellersbootsmkii", 100, new int[] {2, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.GOLD_INGOT),
     travellersbootsmkiii("travellersbootsmkiii", 150, new int[] {4, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.DIAMOND),
-    travellersbootsmkiv("travellersbootsmkiv", 300, new int[] {6, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.EMERALD);
+    travellersbootsmkiv("travellersbootsmkiv", 300, new int[] {6, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.EMERALD),
+    travellersbootsmkiv("travellersbootsmkiv", 600, new int[] {6, 0, 0, 0}, 25, 0, "item.armor.equip_leather", 0.0f, Items.NETHERITE);
     private String name, equipSound;
     private int durability, enchantability;
     private final int[] damageReductionAmountArray;
